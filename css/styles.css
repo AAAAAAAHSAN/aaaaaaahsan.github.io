@@ -22,18 +22,18 @@
  * # block grids
  *      ## block grids - medium screen devices
  *      ## block grids - tablets
- *      ## block grids - mobile devices 
- *      ## block grids - small mobile devices <= 400px 
+ *      ## block grids - mobile devices
+ *      ## block grids - small mobile devices <= 400px
  * # MISC - (_grid.scss)
  * # custom grid, block grid STACK breakpoints
  * # base style overrides
  *      ## links
  * # typography & general theme styles
- *      ## lists 
+ *      ## lists
  *      ## responsive video container
  *      ## floated image
  *      ## tables
- *      ## spacing 
+ *      ## spacing
  * # preloader
  *      ## page loaded
  * # forms
@@ -43,27 +43,27 @@
  * # additional components
  *      ## additional typo styles
  *      ## skillbars
- *      ## alert box 
+ *      ## alert box
  *      ## pagination
  * # common and reusable styles
- *      ## slick slider 
+ *      ## slick slider
  * # site header
  *      ## header logo
  *      ## header nav
  *      ## header search
  *      ## search trigger
- *      ## mobile menu toggle 
+ *      ## mobile menu toggle
  * # home
  *      ## home content
  *      ## home horizontal line
- * # services 
+ * # services
  *      ## services list
  *      ## folio list
  *      ## modal popup
  * # blog
  *      ## homepage blog entries section
  * # about
- *      ## process 
+ *      ## process
  *      ## team
  * # testimonials
  * # CTA
@@ -88,8 +88,8 @@
  *
  * ------------------------------------------------------------------- */
 
-/* ------------------------------------------------------------------- 
- * ## fonts 
+/* -------------------------------------------------------------------
+ * ## fonts
  * ------------------------------------------------------------------- */
 @import url("https://fonts.googleapis.com/css?family=Manrope:300,300i,400,400i,500,500i,600,600i,700,700i,800|Roboto:300,300i,400,400i,600,600i,700,700i&display=swap");
 :root {
@@ -100,9 +100,11 @@
      */
     --font-mono: Consolas, "Andale Mono", Courier, "Courier New", monospace;
 }
+.ahsan-font{
 
-/* ------------------------------------------------------------------- 
- * ## colors 
+}
+/* -------------------------------------------------------------------
+ * ## colors
  * ------------------------------------------------------------------- */
 :root {
     /* color-1(#11abb0)
@@ -125,7 +127,7 @@
     --color-2-darker : hsla(275, 23%, 8%, 1);
 
     /* feedback colors
-     * color-error(#ffd1d2), color-success(#c8e675), 
+     * color-error(#ffd1d2), color-success(#c8e675),
      * color-info(#d7ecfb), color-notice(#fff099)
      */
     --color-error          : hsla(359, 100%, 91%, 1);
@@ -137,9 +139,9 @@
     --color-info-content   : hsla(205, 32%, 31%, 1);
     --color-notice-content : hsla(51, 30%, 30%, 1);
 
-    /* shades 
-     * generated using 
-     * Tint & Shade Generator 
+    /* shades
+     * generated using
+     * Tint & Shade Generator
      * (https://maketintsandshades.com/)
      */
     --color-black  : #000000;
@@ -193,19 +195,19 @@
     --color-border  : var(--color-gray-2);
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## vertical spacing and typescale
  * ------------------------------------------------------------------- */
 :root {
     /* spacing
-     * base font size: 18px 
+     * base font size: 18px
      * vertical space unit : 32px
      */
     --base-size     : 62.5%;
     --base-font-size: 1.8rem;
     --space         : 3.2rem;
 
-    /* vertical spacing 
+    /* vertical spacing
      */
     --vspace-0_25: calc(0.25 * var(--space));
     --vspace-0_5 : calc(0.5 * var(--space));
@@ -256,7 +258,7 @@
     /* default button height
      */
     --vspace-btn: var(--vspace-2);
-    
+
 }
 
 /* on mobile devices below 600px
@@ -268,7 +270,7 @@
     }
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## grid variables
  * ------------------------------------------------------------------- */
 :root {
@@ -299,7 +301,7 @@
  *
  * -------------------------------------------------------------------------- */
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## document
  * ------------------------------------------------------------------- */
 
@@ -313,7 +315,7 @@ html {
     /* 2 */
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## sections
  * ------------------------------------------------------------------- */
 
@@ -337,7 +339,7 @@ h1 {
     margin: 0.67em 0;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## grouping
  * ------------------------------------------------------------------- */
 
@@ -364,7 +366,7 @@ pre {
     /* 2 */
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## text-level semantics
  * ------------------------------------------------------------------- */
 
@@ -427,7 +429,7 @@ sup {
     top: -0.5em;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## embedded content
  * ------------------------------------------------------------------- */
 
@@ -437,7 +439,7 @@ img {
     border-style: none;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## forms
  * ------------------------------------------------------------------- */
 
@@ -572,7 +574,7 @@ textarea {
     /* 2 */
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## interactive
  * ------------------------------------------------------------------- */
 
@@ -588,7 +590,7 @@ summary {
     display: list-item;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## misc
  * ------------------------------------------------------------------- */
 
@@ -632,7 +634,7 @@ body {
     -webkit-text-size-adjust: none;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## media
  * ------------------------------------------------------------------- */
 svg, img, video embed, iframe, object {
@@ -640,7 +642,7 @@ svg, img, video embed, iframe, object {
     height: auto;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## typography resets
  * ------------------------------------------------------------------- */
 div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
@@ -676,7 +678,7 @@ li {
     display: block;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## links
  * ------------------------------------------------------------------- */
 a {
@@ -688,7 +690,7 @@ a img {
     border: none;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## inputs
  * ------------------------------------------------------------------- */
 fieldset {
@@ -696,13 +698,13 @@ fieldset {
     padding: 0;
 }
 
-input[type="email"], 
-input[type="number"], 
-input[type="search"], 
-input[type="text"], 
-input[type="tel"], 
-input[type="url"], 
-input[type="password"], 
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
 textarea {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -715,9 +717,9 @@ textarea {
  * # Grid v3.0.0
  *
  *   -----------------------------------------------------------------
- * - Grid breakpoints are based on MAXIMUM WIDTH media queries, 
+ * - Grid breakpoints are based on MAXIMUM WIDTH media queries,
  *   meaning they apply to that one breakpoint and ALL THOSE BELOW IT.
- * - Grid columns without a specified width will automatically layout 
+ * - Grid columns without a specified width will automatically layout
  *   as equal width columns.
  * ------------------------------------------------------------------- */
 
@@ -871,7 +873,7 @@ textarea {
     align-self: flex-end;
 }
 
-/* large screen column widths 
+/* large screen column widths
  */
 .large-1 {
     -ms-flex: 0 0 8.33333%;
@@ -956,7 +958,7 @@ textarea {
     max-width: 100%;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## medium screen devices
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 1200px) {
@@ -1041,7 +1043,7 @@ textarea {
     }
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## tablets
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 800px) {
@@ -1125,7 +1127,7 @@ textarea {
     }
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## mobile devices
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 600px) {
@@ -1220,7 +1222,7 @@ textarea {
     }
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## small mobile devices <= 400px
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 400px) {
@@ -1296,7 +1298,7 @@ textarea {
     max-width: 100%;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## block grids - medium screen devices
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 1200px) {
@@ -1344,7 +1346,7 @@ textarea {
     }
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## block grids - tablets
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 800px) {
@@ -1392,8 +1394,8 @@ textarea {
     }
 }
 
-/* ------------------------------------------------------------------- 
- * ## block grids - mobile devices 
+/* -------------------------------------------------------------------
+ * ## block grids - mobile devices
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 600px) {
     .block-mob-1-8>.column {
@@ -1440,8 +1442,8 @@ textarea {
     }
 }
 
-/* ------------------------------------------------------------------- 
- * ## block grids - small mobile devices <= 400px 
+/* -------------------------------------------------------------------
+ * ## block grids - small mobile devices <= 400px
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 400px) {
     .stack>.column {
@@ -1589,7 +1591,7 @@ body {
 .new_color{
     color: #66d9ef;
 }
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## links
  * ------------------------------------------------------------------- */
 a {
@@ -1610,7 +1612,7 @@ a:hover, a:active {
 
 /* ===================================================================
  * # typography & general theme styles
- * 
+ *
  * ------------------------------------------------------------------- */
 
 /* type scale - ratio 1:2 | base: 18px
@@ -1865,8 +1867,8 @@ hr.fancy::before {
     letter-spacing: .3em;
 }
 
-/* ------------------------------------------------------------------- 
- * ## lists 
+/* -------------------------------------------------------------------
+ * ## lists
  * ------------------------------------------------------------------- */
 ol {
     list-style: decimal;
@@ -1921,7 +1923,7 @@ dd {
     margin: 0 0 0 2rem;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## responsive video container
  * ------------------------------------------------------------------- */
 .video-container {
@@ -1931,9 +1933,9 @@ dd {
     overflow: hidden;
 }
 
-.video-container iframe, 
-.video-container object, 
-.video-container embed, 
+.video-container iframe,
+.video-container object,
+.video-container embed,
 .video-container video {
     position: absolute;
     top: 0;
@@ -1942,7 +1944,7 @@ dd {
     height: 100%;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## floated image
  * ------------------------------------------------------------------- */
 img.h-pull-right {
@@ -1953,7 +1955,7 @@ img.h-pull-left {
     margin: var(--vspace-0_5) 2.8rem var(--vspace-0_5) 0;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## tables
  * ------------------------------------------------------------------- */
 table {
@@ -1990,35 +1992,35 @@ th:last-child, td:last-child {
     -webkit-overflow-scrolling: touch;
 }
 
-/* ------------------------------------------------------------------- 
- * ## spacing 
+/* -------------------------------------------------------------------
+ * ## spacing
  * ------------------------------------------------------------------- */
 fieldset, button, .btn {
     margin-bottom: var(--vspace-0_5);
 }
 
-input, 
-textarea, 
-select, 
-pre, 
-blockquote, 
-figure, 
-figcaption, 
-table, 
-p, 
-ul, 
-ol, 
-dl, 
-form, 
-img, 
-.video-container, 
+input,
+textarea,
+select,
+pre,
+blockquote,
+figure,
+figcaption,
+table,
+p,
+ul,
+ol,
+dl,
+form,
+img,
+.video-container,
 .ss-custom-select {
     margin-bottom: var(--vspace-1);
 }
 
 
 
-/* =================================================================== 
+/* ===================================================================
  * # preloader
  *
  * ------------------------------------------------------------------- */
@@ -2094,7 +2096,7 @@ img,
     }
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## page loaded
  * ------------------------------------------------------------------- */
 .ss-loaded #preloader {
@@ -2120,14 +2122,14 @@ fieldset {
     border: none;
 }
 
-input[type="email"], 
-input[type="number"], 
-input[type="search"], 
-input[type="text"], 
-input[type="tel"], 
-input[type="url"], 
-input[type="password"], 
-textarea, 
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
 select {
     --input-height: var(--vspace-2);
     --input-line-height: var(--vspace-1);
@@ -2197,13 +2199,13 @@ textarea {
     min-height: 25.6rem;
 }
 
-input[type="email"]:focus, 
-input[type="number"]:focus, 
-input[type="search"]:focus, 
-input[type="text"]:focus, 
-input[type="tel"]:focus, 
-input[type="url"]:focus, 
-input[type="password"]:focus, 
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
 textarea:focus, select:focus {
     color: var(--color-1-dark);
     border-bottom: 1px solid var(--color-1-dark);
@@ -2230,14 +2232,14 @@ label>.label-text {
     line-height: inherit;
 }
 
-label>input[type="checkbox"], 
+label>input[type="checkbox"],
 label>input[type="radio"] {
     margin: 0;
     position: relative;
     top: .2rem;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## style placeholder text
  * ------------------------------------------------------------------- */
 ::-webkit-input-placeholder {
@@ -2264,16 +2266,16 @@ label>input[type="radio"] {
     color: var(--color-placeholder) !important;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## change autocomplete styles in Chrome
  * ------------------------------------------------------------------- */
-input:-webkit-autofill, 
-input:-webkit-autofill:hover, 
-input:-webkit-autofill:focus input:-webkit-autofill, 
-textarea:-webkit-autofill, 
-textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus, 
-select:-webkit-autofill, 
-select:-webkit-autofill:hover, 
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus input:-webkit-autofill,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
     -webkit-text-fill-color: var(--color-1);
     -webkit-transition: background-color 5000s ease-in-out 0s;
@@ -2286,10 +2288,10 @@ select:-webkit-autofill:focus {
  * # buttons
  *
  * ------------------------------------------------------------------- */
-.btn, 
-button, 
-input[type="submit"], 
-input[type="reset"], 
+.btn,
+button,
+input[type="submit"],
+input[type="reset"],
 input[type="button"] {
     --btn-height: var(--vspace-btn);
     display: inline-block;
@@ -2315,15 +2317,15 @@ input[type="button"] {
     border: 0.2rem solid var(--color-btn);
 }
 
-.btn:hover, 
-button:hover, 
-input[type="submit"]:hover, 
-input[type="reset"]:hover, 
-input[type="button"]:hover, 
-.btn:focus, 
-button:focus, 
-input[type="submit"]:focus, 
-input[type="reset"]:focus, 
+.btn:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.btn:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
 input[type="button"]:focus {
     background-color: var(--color-btn-hover);
     border-color: var(--color-btn-hover);
@@ -2333,25 +2335,25 @@ input[type="button"]:focus {
 
 /* button primary
  * ------------------------------------------------- */
-.btn.btn--primary, 
-button.btn--primary, 
-input[type="submit"].btn--primary, 
-input[type="reset"].btn--primary, 
+.btn.btn--primary,
+button.btn--primary,
+input[type="submit"].btn--primary,
+input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
     background: var(--color-btn-primary);
     border-color: var(--color-btn-primary);
     color: var(--color-btn-primary-text);
 }
 
-.btn.btn--primary:hover, 
-button.btn--primary:hover, 
-input[type="submit"].btn--primary:hover, 
-input[type="reset"].btn--primary:hover, 
-input[type="button"].btn--primary:hover, 
-.btn.btn--primary:focus, 
-button.btn--primary:focus, 
-input[type="submit"].btn--primary:focus, 
-input[type="reset"].btn--primary:focus, 
+.btn.btn--primary:hover,
+button.btn--primary:hover,
+input[type="submit"].btn--primary:hover,
+input[type="reset"].btn--primary:hover,
+input[type="button"].btn--primary:hover,
+.btn.btn--primary:focus,
+button.btn--primary:focus,
+input[type="submit"].btn--primary:focus,
+input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
     background: var(--color-btn-primary-hover);
     border-color: var(--color-btn-primary-hover);
@@ -2360,49 +2362,49 @@ input[type="button"].btn--primary:focus {
 
 /* button modifiers
  * ------------------------------------------------- */
-.btn.h-full-width, 
+.btn.h-full-width,
 button.h-full-width {
     width: 100%;
     margin-right: 0;
 }
 
-.btn--small, 
+.btn--small,
 button.btn--small {
     --btn-height: calc(var(--vspace-btn) - 1.6rem);
 }
 
-.btn--medium, 
+.btn--medium,
 button.btn--medium {
     --btn-height: calc(var(--vspace-btn) + .8rem);
 }
 
-.btn--large, 
+.btn--large,
 button.btn--large {
     --btn-height: calc(var(--vspace-btn) + 1.6rem);
 }
 
-.btn--stroke, 
+.btn--stroke,
 button.btn--stroke {
     background: transparent !important;
     border: 0.2rem solid var(--color-btn-stroke);
     color: var(--color-btn-stroke-text);
 }
 
-.btn--stroke:hover, 
+.btn--stroke:hover,
 button.btn--stroke:hover {
     background: var(--color-btn-stroke-hover) !important;
     border: 0.2rem solid var(--color-btn-stroke-hover);
     color: var(--color-btn-stroke-hover-text);
 }
 
-.btn--pill, 
+.btn--pill,
 button.btn--pill {
     padding-left: 3.2rem !important;
     padding-right: 3.2rem !important;
     border-radius: 1000px !important;
 }
 
-button::-moz-focus-inner, 
+button::-moz-focus-inner,
 input::-moz-focus-inner {
     border: 0;
     padding: 0;
@@ -2410,12 +2412,12 @@ input::-moz-focus-inner {
 
 
 
-/* =================================================================== 
+/* ===================================================================
  * # additional components
  *
  * ------------------------------------------------------------------- */
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## additional typo styles
  * ------------------------------------------------------------------- */
 .drop-cap:first-letter {
@@ -2430,7 +2432,7 @@ input::-moz-focus-inner {
     color: var(--color-text-dark);
 }
 
-/* line definition style 
+/* line definition style
  * ----------------------------------------------- */
 .lining dt, .lining dd {
     display: inline;
@@ -2455,7 +2457,7 @@ input::-moz-focus-inner {
     margin-left: -0.2em;
 }
 
-/* dictionary definition style 
+/* dictionary definition style
  * ----------------------------------------------- */
 .dictionary-style dt {
     display: inline;
@@ -2476,7 +2478,7 @@ input::-moz-focus-inner {
     content: counter(definitions, decimal) ". ";
 }
 
-/** 
+/**
  * Pull Quotes
  * -----------
  * markup:
@@ -2524,7 +2526,7 @@ input::-moz-focus-inner {
     left: 50%;
 }
 
-/** 
+/**
  * Stats Tab
  * ---------
  * markup:
@@ -2579,7 +2581,7 @@ input::-moz-focus-inner {
     color: var(--color-text-light);
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## skillbars
  * ------------------------------------------------------------------- */
 .skill-bars {
@@ -2721,8 +2723,8 @@ input::-moz-focus-inner {
     width: 100%;
 }
 
-/* ------------------------------------------------------------------- 
- * ## alert box 
+/* -------------------------------------------------------------------
+ * ## alert box
  * ------------------------------------------------------------------- */
 .alert-box {
     padding: var(--vspace-0_75) 4rem var(--vspace-0_75) 3.2rem;
@@ -2747,7 +2749,7 @@ input::-moz-focus-inner {
     height: 12px;
 }
 
-.alert-box__close::before, 
+.alert-box__close::before,
 .alert-box__close::after {
     content: '';
     position: absolute;
@@ -2773,7 +2775,7 @@ input::-moz-focus-inner {
     color: var(--color-error-content);
 }
 
-.alert-box--error .alert-box__close::before, 
+.alert-box--error .alert-box__close::before,
 .alert-box--error .alert-box__close::after {
     background-color: var(--color-error-content);
 }
@@ -2783,7 +2785,7 @@ input::-moz-focus-inner {
     color: var(--color-success-content);
 }
 
-.alert-box--success .alert-box__close::before, 
+.alert-box--success .alert-box__close::before,
 .alert-box--success .alert-box__close::after {
     background-color: var(--color-success-content);
 }
@@ -2793,7 +2795,7 @@ input::-moz-focus-inner {
     color: var(--color-info-content);
 }
 
-.alert-box--info .alert-box__close::before, 
+.alert-box--info .alert-box__close::before,
 .alert-box--info .alert-box__close::after {
     background-color: var(--color-info-content);
 }
@@ -2803,7 +2805,7 @@ input::-moz-focus-inner {
     color: var(--color-notice-content);
 }
 
-.alert-box--notice .alert-box__close::before, 
+.alert-box--notice .alert-box__close::before,
 .alert-box--notice .alert-box__close::after {
     background-color: var(--color-notice-content);
 }
@@ -2934,7 +2936,7 @@ input::-moz-focus-inner {
     background-color: transparent;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * pagination
  * ------------------------------------------------------------------- */
@@ -2988,8 +2990,8 @@ input::-moz-focus-inner {
     color: white;
 }
 
-/* ------------------------------------------------------------------- 
- * ## slick slider 
+/* -------------------------------------------------------------------
+ * ## slick slider
  * ------------------------------------------------------------------- */
 .slick-slider .slick-slide {
     outline: none;
@@ -3031,12 +3033,12 @@ input::-moz-focus-inner {
     color: transparent;
 }
 
-.slick-slider .slick-dots li button:hover, 
+.slick-slider .slick-dots li button:hover,
 .slick-slider .slick-dots li button:focus {
     outline: none;
 }
 
-.slick-slider .slick-dots li.slick-active button, 
+.slick-slider .slick-dots li.slick-active button,
 .slick-slider .slick-dots li:hover button {
     background: var(--color-1);
 }
@@ -3174,7 +3176,7 @@ input::-moz-focus-inner {
     color: white;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## header search
  * ------------------------------------------------------------------- */
 .s-header__search {
@@ -3235,9 +3237,9 @@ input::-moz-focus-inner {
     text-align: center;
 }
 
-.s-header__search-form input[type="search"]::-webkit-search-decoration, 
-.s-header__search-form input[type="search"]::-webkit-search-cancel-button, 
-.s-header__search-form input[type="search"]::-webkit-search-results-button, 
+.s-header__search-form input[type="search"]::-webkit-search-decoration,
+.s-header__search-form input[type="search"]::-webkit-search-cancel-button,
+.s-header__search-form input[type="search"]::-webkit-search-results-button,
 .s-header__search-form input[type="search"]::-webkit-search-results-decoration {
     -webkit-appearance: none;
 }
@@ -3292,12 +3294,12 @@ input::-moz-focus-inner {
     color: transparent;
 }
 
-.s-header__overlay-close:hover::before, 
+.s-header__overlay-close:hover::before,
 .s-header__overlay-close:hover::after {
     background-color: var(--color-1);
 }
 
-.s-header__overlay-close::before, 
+.s-header__overlay-close::before,
 .s-header__overlay-close::after {
     content: '';
     position: absolute;
@@ -3359,8 +3361,8 @@ body.search-is-visible {
     fill: white;
 }
 
-/* ------------------------------------------------------------------- 
- * ## mobile menu toggle 
+/* -------------------------------------------------------------------
+ * ## mobile menu toggle
  * ------------------------------------------------------------------- */
 .s-header__menu-toggle {
     display: none;
@@ -3393,7 +3395,7 @@ body.search-is-visible {
     transition: all .5s;
 }
 
-.s-header__menu-toggle .s-header__menu-icon::before, 
+.s-header__menu-toggle .s-header__menu-icon::before,
 .s-header__menu-toggle .s-header__menu-icon::after {
     content: '';
     width: 100%;
@@ -3419,7 +3421,7 @@ body.search-is-visible {
     transition: all .1s;
 }
 
-.s-header__menu-toggle.is-clicked .s-header__menu-icon::before, 
+.s-header__menu-toggle.is-clicked .s-header__menu-icon::before,
 .s-header__menu-toggle.is-clicked .s-header__menu-icon::after {
     background-color: white;
 }
@@ -3436,7 +3438,7 @@ body.search-is-visible {
     transform: rotate(225deg);
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * header
  * ------------------------------------------------------------------- */
@@ -3564,7 +3566,7 @@ body.search-is-visible {
     background: var(--color-dark-bg);
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## home content
  * ------------------------------------------------------------------- */
 .s-home__content {
@@ -3605,15 +3607,15 @@ body.search-is-visible {
     transition: all .3s;
 }
 
-.s-home__slider h2 a, 
-.s-home__slider h2 a:visited, 
+.s-home__slider h2 a,
+.s-home__slider h2 a:visited,
 .s-home__slider h2 span {
     display: inline-block;
     color: var(--color-1);
     border-bottom: 1px solid transparent;
 }
 
-.s-home__slider h2 a:hover, 
+.s-home__slider h2 a:hover,
 .s-home__slider h2 a:focus {
     border-bottom: 1px solid rgba(255, 255, 255, 0.25);
 }
@@ -3659,7 +3661,7 @@ body.search-is-visible {
     transition: all 0.3s ease-in-out;
 }
 
-[class*="s-home__arrow-"]:hover svg path, 
+[class*="s-home__arrow-"]:hover svg path,
 [class*="s-home__arrow-"]:focus svg path {
     fill: white;
 }
@@ -3672,7 +3674,7 @@ body.search-is-visible {
     right: 0;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## home horizontal line
  * ------------------------------------------------------------------- */
 .s-home__line {
@@ -3687,7 +3689,7 @@ body.search-is-visible {
     bottom: 0;
 }
 
-.s-home__line::before, 
+.s-home__line::before,
 .s-home__line::after {
     content: "";
     display: block;
@@ -3706,7 +3708,7 @@ body.search-is-visible {
     right: 0;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * home
  * ------------------------------------------------------------------- */
@@ -3823,7 +3825,7 @@ body.search-is-visible {
 
 
 /* ===================================================================
- * # services 
+ * # services
  *
  * ------------------------------------------------------------------- */
 .s-services {
@@ -3837,7 +3839,7 @@ body.search-is-visible {
     color: rgba(255, 255, 255, 0.3);
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## services list
  * ------------------------------------------------------------------- */
 .services-list {
@@ -3863,7 +3865,7 @@ body.search-is-visible {
     margin-bottom: var(--gutter-lg);
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * services
  * ------------------------------------------------------------------- */
@@ -3885,7 +3887,7 @@ body.search-is-visible {
     padding-bottom: calc(6 * var(--space));
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## folio list
  * ------------------------------------------------------------------- */
 .folio-item {
@@ -3905,7 +3907,7 @@ body.search-is-visible {
     background-color: var(--color-dark-bg);
 }
 
-.folio-item__thumb:hover .folio-item__text, 
+.folio-item__thumb:hover .folio-item__text,
 .folio-item__thumb:focus .folio-item__text {
     color: white;
 }
@@ -3927,7 +3929,7 @@ body.search-is-visible {
     transition: all .5s;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## modal popup
  * ------------------------------------------------------------------- */
 .modal-popup {
@@ -4004,7 +4006,7 @@ body.search-is-visible {
     color: white;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * portfolio
  * ------------------------------------------------------------------- */
@@ -4108,8 +4110,8 @@ body.search-is-visible {
     color: var(--color-dark-bg);
 }
 
-/* ------------------------------------------------------------------- 
- * ## homepage blog entries section 
+/* -------------------------------------------------------------------
+ * ## homepage blog entries section
  * ------------------------------------------------------------------- */
 .blog-entries h3 {
     color: white;
@@ -4167,7 +4169,7 @@ body.search-is-visible {
     margin-left: .2rem;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * blog
  * ------------------------------------------------------------------- */
@@ -4244,8 +4246,8 @@ body.search-is-visible {
     font-weight: 400;
 }
 
-/* ------------------------------------------------------------------- 
- * ## process 
+/* -------------------------------------------------------------------
+ * ## process
  * ------------------------------------------------------------------- */
 .process-block {
     margin-top: var(--vspace-1);
@@ -4257,7 +4259,7 @@ body.search-is-visible {
     color: var(--color-1);
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## team
  * ------------------------------------------------------------------- */
 .team-block {
@@ -4308,7 +4310,7 @@ body.search-is-visible {
     margin-right: 1.2rem;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * about
  * ------------------------------------------------------------------- */
@@ -4399,7 +4401,7 @@ body.search-is-visible {
     color: rgba(0, 0, 0, 0.6);
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * testimonials
  * ------------------------------------------------------------------- */
@@ -4464,7 +4466,7 @@ body.search-is-visible {
     color: black;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * cta
  * ------------------------------------------------------------------- */
@@ -4530,7 +4532,7 @@ body.search-is-visible {
     color: var(--color-1);
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## contact content
  * ------------------------------------------------------------------- */
 .s-contact__content .display-1 {
@@ -4550,7 +4552,7 @@ body.search-is-visible {
     color: black;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## contact info blocks
  * ------------------------------------------------------------------- */
 .s-contact__info-blocks {
@@ -4573,7 +4575,7 @@ body.search-is-visible {
     fill: white;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * contact
  * ------------------------------------------------------------------- */
@@ -4620,7 +4622,7 @@ body.search-is-visible {
     color: var(--color-1);
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## footer social
  * ------------------------------------------------------------------- */
 .s-footer__social {
@@ -4651,7 +4653,7 @@ body.search-is-visible {
     margin-right: 1.6rem;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## copyright
  * ------------------------------------------------------------------- */
 .ss-copyright {
@@ -4679,7 +4681,7 @@ body.search-is-visible {
     display: none;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## go top
  * ------------------------------------------------------------------- */
 .ss-go-top {
@@ -4736,7 +4738,7 @@ body.search-is-visible {
     transform: translate3d(0, 0, 0);
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * footer
  * ------------------------------------------------------------------- */
@@ -4951,7 +4953,7 @@ body.search-is-visible {
     color: var(--color-text-light);
 }
 
-.blog-post__tags .blog-post__tags-title, 
+.blog-post__tags .blog-post__tags-title,
 .blog-post__tags .blog-post__tags-list {
     display: inline-block;
 }
@@ -5093,7 +5095,7 @@ body.search-is-visible {
     color: var(--color-1);
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * blog styles and blog components
  * ------------------------------------------------------------------- */
@@ -5232,7 +5234,7 @@ body.search-is-visible {
 }
 
 /* -------------------------------------------------------------------
- * ## comments 
+ * ## comments
  * ------------------------------------------------------------------- */
 .comments-wrap {
     padding: var(--vspace-2) 0 var(--vspace-1_5);
@@ -5367,7 +5369,7 @@ body.search-is-visible {
     margin-top: var(--vspace-1);
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * comments
  * ------------------------------------------------------------------- */
@@ -5384,7 +5386,7 @@ body.search-is-visible {
         width: auto;
         position: static;
     }
-    .comment__meta .comment__time, 
+    .comment__meta .comment__time,
     .comment__meta .comment__reply {
         display: inline-block;
     }
